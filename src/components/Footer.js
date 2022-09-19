@@ -13,7 +13,7 @@ const Footer = () => {
 				</div>
 				<p className="footer-p">&lt; FeliCodeMan © 2022‍ /&gt;</p>
 				<div className="footer-icons">
-					<a href="https://www.github.com/felicodeman/" target="”_blank”">
+					<a href="https://www.github.com/felicodman/" target="”_blank”">
 						<FontAwesomeIcon icon={faGithub} className="githubIcon" />
 					</a>
 					<a
