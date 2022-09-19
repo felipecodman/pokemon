@@ -1,0 +1,16 @@
+{
+  "responsive-preview": {
+    "Kindle": [
+      800,
+      1280
+    ],
+    "Iphone X": [
+      375,
+      812
+    ],
+    "Movil": [
+      1920,
+      1080
+    ]
+  }
+}
