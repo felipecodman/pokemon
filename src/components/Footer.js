@@ -11,7 +11,7 @@ const Footer = () => {
 				<div className="footer-heart-icon">
 					<img src={heart2} width={40} height={46} alt="heart-icon" />
 				</div>
-				<p className="footer-p">&lt; FeliCodeMan © 2022‍ /&gt;</p>
+				<p className="footer-p">&lt; FeliCodMan © 2022‍ /&gt;</p>
 				<div className="footer-icons">
 					<a href="https://www.github.com/felicodman/" target="”_blank”">
 						<FontAwesomeIcon icon={faGithub} className="githubIcon" />
