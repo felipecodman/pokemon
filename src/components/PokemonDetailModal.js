@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getPokemonData } from "../api";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/fontawesome-svg-core";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const PokemonDetailModal = (props) => {
