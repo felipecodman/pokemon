@@ -223,7 +223,7 @@ export default function App() {
 						setIsShiny={setIsShiny}
 					/>
 					{notFound ? (
-						<div className="not-found-text">¡Ese Pokemon no existe!</div>
+						<div className="not-found-text">That Pokemon doesn't exist!</div>
 					) : (
 						<Pokedex
 							loading={loading}

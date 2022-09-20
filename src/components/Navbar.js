@@ -5,7 +5,7 @@ import heart_full from "../images/heart-full.png";
 
 const { useContext } = React;
 
-const defaultMessage = "¡Aún no tienes ningún Pokémon favorito!";
+const defaultMessage = "¡You don't have any favorite Pokemon yet!";
 
 function capitalizeName(name) {
 	return name.toString().replace(/\b(\w)/g, (s) => s.toUpperCase());
@@ -26,7 +26,7 @@ const Navbar = () => {
 				<Logo />
 			</div>
 			<div className="favorites">
-				<p>Favoritos</p>
+				<p>Favorites</p>
 				<div className="heart-tooltip">
 					<img
 						src={heart_full}

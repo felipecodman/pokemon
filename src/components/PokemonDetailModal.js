@@ -30,7 +30,7 @@ const PokemonDetailModal = (props) => {
 					if (englishEntry.length > 0) {
 						setAbout(englishEntry[0].flavor_text);
 					} else {
-						return "¡¡No hay una descripción en inglés para este Pokémon!!";
+						return "¡There's no english description for this Pokémon!";
 					}
 				} catch (err) {}
 			};
@@ -167,7 +167,7 @@ const PokemonDetailModal = (props) => {
 					</div>
 					<div className="modal-right-column">
 						<div>
-							<h1>Estadísticas básicas</h1>
+							<h1>Basic statistics</h1>
 							<div className="modal-stats container">
 								<div>
 									<span id="stat-name">{pokemon?.stats[0].stat.name}:</span>
@@ -202,7 +202,7 @@ const PokemonDetailModal = (props) => {
 							</div>
 						</div>
 						<div>
-							<h1>Habilidades</h1>
+							<h1>Skills</h1>
 							<div className="modal-abilities container">
 								{pokemon?.abilities.map((ability) => {
 									return (
