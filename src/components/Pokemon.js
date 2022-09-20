@@ -1,7 +1,5 @@
 import React from "react";
 import FavoriteContext from "../contexts/favoritesContext";
-import heart_full from "../images/heart-full.png";
-import heart_empty from "../images/heart-empty.png";
 import { useContext }  from 'react';
 // import React, { useEffect, useState} from "react"
 
@@ -11,9 +9,9 @@ const Pokemon = (props) => {
 		FavoriteContext
 	);
 
-  const redHeart = heart_full;
-	const whiteHeart = heart_empty;
-	const heart = favoritePokemon.includes(pokemon.name) ? redHeart : whiteHeart;
+  const redHeart = "❤️";
+	const blackHeart = "🖤";
+	const heart = favoritePokemon.includes(pokemon.name) ? redHeart : blackHeart;
 
   const clickHeart = (e) => {
 		e.preventDefault();
@@ -58,8 +56,7 @@ const Pokemon = (props) => {
 						})}
 					</div>
 					<button onClick={clickHeart} className="favorite-btn">
-						<div className="favorite-heart">
-							<img src={heart} alt="heart" width={24} height={22} />
+						<div className="favorite-heart">{heart}
 						</div>
 					</button>
 				</div>

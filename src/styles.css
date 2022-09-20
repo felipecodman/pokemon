@@ -200,17 +200,9 @@ nav {
 }
 
 .favorite-btn {
-	background-color: #ffffff;
+	background-color: #e4e2e2;
 	border: none;
-}
-
-.favorite-heart img {
-	border-radius: 8px;
-	padding: 3px;
-}
-
-.favorite-heart img:hover {
-	background-color: lightgrey;
+	border-radius: 20%;
 	cursor: pointer;
 }
 
@@ -758,10 +750,10 @@ nav {
 		width: 65%;
 	}
 
-	.favorite-heart img {
+	/* .favorite-heart img {
 		width: 22px;
 		height: 20px;
-	}
+	} */
 }
 
 @media screen and (max-width: 940px) {
@@ -814,6 +806,7 @@ nav {
 
 	.favorites {
 		font-size: 16px;
+		cursor: pointer ;
 	}
 
 	.favorites,
@@ -821,6 +814,7 @@ nav {
 	.left-div {
 		display: flex;
 		flex: 0;
+		cursor: pointer ;
 	}
 
 	.logo {
@@ -829,12 +823,14 @@ nav {
 
 	.favorites {
 		margin-top: 10px;
+		cursor: pointer ;
 	}
 
 	.favorite-heart-navbar {
 		width: 16px;
 		height: 14px;
 		margin: 3px 2px 0 0;
+		cursor: pointer ;
 	}
 
 	.searchbar {
